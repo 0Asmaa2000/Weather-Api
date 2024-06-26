@@ -1,0 +1,171 @@
+
+body {
+    background-color: #1E202B;
+    font-size: 16px;
+    color: #BFC1C8;
+}
+  .navbar-brand .logo,
+  .navbar-brand .logo-info {
+    vertical-align: middle;
+  }
+  .navbar-brand .logo {
+    margin-right: 0.625rem;
+  }
+  
+  .navbar-brand .site-title{
+    margin-bottom: 2px;
+    color: #f1f1f1;
+  }
+  .site-description {
+    color: #bebebe;
+    font-style: 2px !important;
+  }
+.home{
+    border: 2px solid #009AD8 !important;
+
+}
+  .navbar {
+    padding-block: 50px;
+  }
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  
+  .nav-item a.nav-link {
+    color: #f1f1f1;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-weight: 400;
+  }
+  #nav-burger{
+    display: none;
+  }
+.navbar label{
+  cursor: pointer;
+  margin-left: auto;
+  display: none;
+}
+  
+  .navbar-toggler {
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+  }
+  
+  .navbar-toggler svg {
+    color: #f1f1f1;
+    font-size: 15px;
+  } 
+.navbar-toggler:hover {
+    color: #f1f1f1;
+  }
+  .navbar-toggler:hover svg {
+    color: #f1f1f1;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+/*Start form*/
+form {
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.input{
+    width: 100%;
+    padding: 15px;
+    position: absolute !important;
+    background:#1E202B;
+    border: none;
+
+
+}
+.input:focus{
+  box-shadow: none;
+ outline: none;
+}
+.button {
+padding: 10px;
+    position: absolute !important;
+    right: 10px;;
+    top:55px;
+}
+/*End form*/
+/* section */
+section {
+    background-image:url(../phots/banner.png);
+}
+/* section */
+.row {
+    padding-top: 50px;
+} 
+/* colums */ 
+.head {
+    background-color: #2D303D;
+    margin: 0;
+    display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+}
+
+.discription-weath{
+    background-color:#323544;
+}
+.templateDegreee{
+    font-size: 100px;
+}
+/* SecondDAy */
+#SecondDAy{
+  background-color:#222531;
+}
+.discription-weath-secend{
+  background-color: #262936;
+
+
+}
+.top {
+  margin: 0;
+  display: block;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  right: 0;
+}
+.Day3{
+  background-color: #2D303D;
+}
+.discription-weath-third{
+  background-color: #323544;
+}
+/* footer */
+footer{
+  background-color: #262936;
+}
+.input2{
+  width:80%;
+  background-color: #1E202B;
+  border: none;
+  outline: none;
+}
+.input2:focus{
+ box-shadow: none;
+}
+.btn2{
+position: absolute;
+top: 18%;
+right: 23%;
+}
+.circle{
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  background-color: #1E202B;
+}
+.circle:hover{
+  background-color: #3284ff;
+
+}
